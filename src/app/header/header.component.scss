@@ -1,0 +1,35 @@
+
+
+header{
+    .row{ align-items: center; }
+    background-color: #0cf9a1; position: fixed; top: 0; width: 100%; left: 0; z-index: 999;
+    .top_nav{ padding: 20px 0 0;
+        .col-md-6:last-child{ text-align: right;}
+
+        a{ font-size: 18px; line-height: 18px; font-weight: 600;
+            &:hover{ color: #fff !important;}
+        }
+        button{margin-left: 20px; display: inline-block;}
+    }
+    .bottom_nav{ padding: 20px 0; 
+        .logo a{ font-size: 30px; font-weight: 800;
+            &:hover{ color: #fff !important;}
+        }
+
+        ul{
+            display: block;
+            li{
+                display: inline-block;margin: 0 20px; 
+                a{
+                    font-size: 20px; line-height: 20px; color: #000; transition: all 0.3s ease 0s; font-weight: 600; cursor: pointer;
+                    &:hover{ color: #fff !important;}
+                }
+                &:last-child{ margin-right: 0;}
+                .atcive{ color: #fff !important; }
+            }
+
+        }
+        .col-md-8{ text-align: right;}
+    }
+
+}

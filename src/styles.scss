@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+body{ font-family: 'Open Sans', sans-serif; background-color:#f3f3f3; }
+
+p{ font-size: 16px; line-height: 24px; color: #858585; font-weight: 300; }
+ul{ margin-bottom: 0 !important;}
+ul li{ font-size: 16px; line-height: 24px; color: #858585; font-weight: 400;}
+ol{ margin-bottom: 0 !important;}
+ol li{ font-size: 16px; line-height: 24px; color: #858585; font-weight: 400;}
+:hover{ transition: all 0.3s ease 0s; }
+
+a{ font-size: 16px; font-weight: 300; color: #000 !important; transition: all 0.5s ease 0s; }
+a:hover{ color: #0cf9a1 !important; text-decoration: none !important; }
+
+.ctm_btn{ background-color: transparent; border: 2px solid #000; transition: all 0.3s ease 0s; padding: 5px 30px; font-weight: 600; }
+.ctm_btn:hover{ background-color: #000; color: #fff;  }
+
+.main_page{ padding-top: 143px; }
+
+img{ max-width: 100%;}
+.space{ padding: 60px 0;}
+.img_box{
+    margin-right: 50px;    margin-bottom: 20px;
+    img{ 
+        box-shadow: 20px 20px 0px #0cf9a1;
+    }
+}
+.grey_band{ background-color: #f3f3f3; }
+
+form{ max-width: 500px; margin: 0 auto; box-shadow: 0 0 10px rgba(0,0,0,0.3);  padding: 30px;}
+label{ display: block !important; font-size: 18px; line-height: 24px; color: #000; font-weight: 600; }
+input{ width: 100%; padding: 10px; font-size: 16px; font-weight: 600; color: #000; border:1px solid #000 !important; }
+
+select{ width: 100%; padding: 10px !important; font-size: 16px ; font-weight: 600; color: #000 !important; border-radius: 0 !important; height: auto !important; font-weight: 600 !important; border-color: #000 !important;  }
+
+// form button[type=submit]{ background-color: #000;    color: #fff;    font-weight: 600;    font-size: 18px;    border: 2px solid #000 !important; transition: all 0.5s ease 0s;
+//        &:hover{ background-color: transparent; color: #000 !important; }
+// }
+* , :focus{ outline: none; }
+.log-in-form{
+    h1{ display: block;text-align: center; margin-bottom: 30px;     background-color: #000;    color: #fff;    margin-bottom: 0;    padding: 10px 15px 20px;    max-width: 500px;    margin: 0 auto;}
+}
+
+input[type=radio]{ display:inline-block !important;  width: auto; margin-right: 5px; }
+.radio-group{ margin-bottom: 5px; margin-right: 30px; display: inline-block; }
+input[type=checkbox]{ display:inline-block !important;  width: auto; margin-right: 5px; }
+.is-invalid, .ng-invalid{ border-color: red !important; }
+.form-group small{ color: red;}
+.red{ color: red; }
+.ng-invalid input:disabled {
+    pointer-events: none;
+  }
